@@ -1,0 +1,15 @@
+{
+  "accentColor": "",
+  "textFontFamily": "BerkeleyMono Nerd Font,Bahnschrift",
+  "enabledCssSnippets": [
+    "checkbox",
+    "no-blink"
+  ],
+  "cssTheme": "Obsidian gruvbox",
+  "monospaceFontFamily": "BerkeleyMono Nerd Font",
+  "theme": "system",
+  "interfaceFontFamily": "Bahnschrift",
+  "baseFontSizeAction": true,
+  "baseFontSize": 19,
+  "showViewHeader": false
+}

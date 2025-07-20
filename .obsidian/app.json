@@ -1,0 +1,15 @@
+{
+  "showLineNumber": true,
+  "vimMode": true,
+  "promptDelete": true,
+  "tabSize": 4,
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "attachments",
+  "useMarkdownLinks": true,
+  "livePreview": false,
+  "showIndentGuide": true,
+  "useTab": true,
+  "newLinkFormat": "relative",
+  "spellcheck": true,
+  "readableLineLength": true
+}
