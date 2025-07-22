@@ -3,7 +3,6 @@ tags:
   - dev
   - java
 created_at: 2025-07-21 11:21
-aliases:
 ---
 ## Problem
 i do not know how to format strings in Java

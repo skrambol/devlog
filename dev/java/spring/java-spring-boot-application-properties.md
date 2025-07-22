@@ -5,7 +5,6 @@ tags:
   - spring-boot
   - spring-boot-application-properties
 created_at: 2025-07-20 12:58
-aliases:
 ---
 ```properties
 spring.application.name=mycoolerapp

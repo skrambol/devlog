@@ -4,7 +4,6 @@ tags:
   - nvim
   - lua
 created_at: 2023-09-28 09:05
-aliases:
 ---
 ## Problem
 trying to change the highlight (background) of the CursorLine to blank to see the ghost text/tabs clearly

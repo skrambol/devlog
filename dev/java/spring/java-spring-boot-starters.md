@@ -6,7 +6,6 @@ tags:
   - spring-boot-starter
   - spring-boot-starter-parent
 created_at: 2025-07-20 13:03
-aliases:
 ---
 ```properties
 <parent>

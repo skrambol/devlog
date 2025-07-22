@@ -4,7 +4,6 @@ tags:
   - maven
   - pom-xml
 created_at: 2025-07-20 13:04
-aliases:
 ---
 ```xml
 	<groupId>org.springframework.boot</groupId>

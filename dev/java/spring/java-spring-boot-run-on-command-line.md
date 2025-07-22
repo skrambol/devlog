@@ -6,7 +6,6 @@ tags:
   - maven
   - spring-boot
 created_at: 2025-07-18 07:14
-aliases:
 ---
 ## Problem
 tutorial clicks Run on IDE to run Spring Boot application. but i dont have it

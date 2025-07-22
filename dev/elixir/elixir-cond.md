@@ -4,7 +4,6 @@ tags:
   - devlog
   - elixir
 created_at: 2023-09-29 16:09
-aliases:
 ---
 ```elixir
 cond do

@@ -7,7 +7,6 @@ tags:
   - spring-boot-starter-actuator
   - spring-boot-application-properties
 created_at: 2025-07-20 13:13
-aliases:
 ---
 ```xml
 <dependency>

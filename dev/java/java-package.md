@@ -4,7 +4,6 @@ tags:
   - java
   - nvim-java
 created_at: 2025-07-18 07:14
-aliases:
 ---
 - in Java, a `package` is a directory that contains classes
 - just a directory, no special `__init__.py` from python

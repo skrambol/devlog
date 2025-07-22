@@ -5,8 +5,6 @@ tags:
   - wsl2
   - fix
 created_at: 2023-09-28 07:10
-aliases:
-  - "2023-09-28"
 ---
 ## Problem
 when trying to run `docker pull oven/bun:alpine`, it had an error

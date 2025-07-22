@@ -3,8 +3,6 @@ tags:
   - dev
   - wsl2
 created_at: 2023-09-28 07:13
-aliases:
-  - "2023-09-28"
 ---
 ## Steps
 1. Open Docker for Desktop

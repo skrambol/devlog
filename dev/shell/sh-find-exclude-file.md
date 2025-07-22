@@ -4,7 +4,6 @@ tags:
   - shell
   - find
 created_at: 2023-09-29 17:36
-aliases:
 ---
 ## Problem
 - looking for a way to remove the `.git` since the directory is included in the tmux-sessionizer

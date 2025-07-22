@@ -4,7 +4,6 @@ tags:
   - java
   - spring-boot
 created_at: 2025-07-20 13:08
-aliases:
 ---
 - Spring Initializr (https://spring.initializr)
 ![](attachments/Pasted%20image%2020250720131046.png)

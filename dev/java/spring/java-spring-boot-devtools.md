@@ -5,7 +5,6 @@ tags:
   - spring-boot
   - spring-boot-devtools
 created_at: 2025-07-20 12:44
-aliases:
 ---
 ## Problem
 surely there is a hot reload option for Spring Boot

@@ -5,8 +5,6 @@ tags:
   - treesitter
   - navigation
 created_at: 2023-09-27 12:31
-aliases:
-  - "2023-09-27"
 ---
 with treesitter, it is possible to navigate the code by going to the next/previous function or method
 

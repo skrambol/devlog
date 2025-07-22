@@ -4,7 +4,6 @@ tags:
   - maven
   - java
 created_at: 2025-07-20 12:50
-aliases:
 ---
 - root
 	- pom.xml

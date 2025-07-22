@@ -4,7 +4,6 @@ tags:
   - devlog
   - elixir
 created_at: 2023-09-30 09:42
-aliases:
 ---
 ```elixir
 def number(n \\ 13)

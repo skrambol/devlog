@@ -4,7 +4,6 @@ tags:
   - devlog
   - elixir
 created_at: 2023-09-29 12:48
-aliases:
 ---
 ```elixir
 integer = 3

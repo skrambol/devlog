@@ -5,7 +5,6 @@ tags:
   - spring-boot
   - spring-container
 created_at: 2025-07-21 11:27
-aliases:
 ---
 ![](../../../attachments/Pasted%20image%2020250721104913.png)
 - `Coach` is the Spring Container

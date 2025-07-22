@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "[\"aliases\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,8 +76,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "406b58c4e8b8f513",
@@ -164,7 +163,7 @@
               "type": "outline",
               "state": {
                 "file": "journal/2025-07-22.md",
-                "followCursor": false,
+                "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -205,9 +204,22 @@
   },
   "active": "7ce63f5e72f0a7d3",
   "lastOpenFiles": [
+    "templates/fleets.md",
+    "journal/2025-07-22.md",
+    "dev/nvim/nvim-stop-java-project.md",
+    "dev/nvim/nvim-run-lua-from-nvim-cmd.md~",
+    "dev/nvim/4913",
+    "dev/wsl/wsl2-docker-no-permission.md~",
+    "dev/wsl/4913",
+    "dev/treesitter/treesitter-go-to-next-prev-function.md~",
+    "dev/treesitter/4913",
+    "dev/treesitter/treesitter-scope-selection.md~",
+    "dev/wsl/wsl2-install-docker.md~",
+    "dev/wsl/sedJqOEVc",
+    "dev/treesitter/sedKLiYiP",
+    "dev/nvim/nvim-telescope-resize-preview-window.md",
     "templates/dev-java-spring-boot.md",
     "templates/dev.md",
-    "journal/2025-07-22.md",
     "dev/elixir/elixir-boolean.md",
     "dev/elixir/elixir-bitwise.md",
     "dev/elixir/elixir-anonymous-functions.md",
@@ -228,28 +240,15 @@
     "dev/java/spring/java-spring-boot-scanbasepackages.md",
     "dev/java/spring/java-spring-boot-component-scanning.md",
     "dev/java/spring/java-spring-boot-springbootapplication-annotation.md",
-    "journal/2025-07-21.md",
-    "component.md",
-    "java-spring-boot-component-annotation.md",
     "attachments/Pasted image 20250722104402.png",
     "attachments/Pasted image 20250722101740.png",
     "attachments/Pasted image 20250721104913.png",
-    "4913",
-    "dev/maven",
     "attachments/Pasted image 20250720131046.png",
     "attachments/Pasted image 20250720121147.png",
     "attachments/Pasted image 20250720120406.png",
     "attachments/Pasted image 20250720120323.png",
     "attachments/Pasted image 20250720104220.png",
-    "dev/wsl",
-    "dev/shell",
     "attachments/Pasted image 20250718114147.png",
-    "attachments/Pasted image 20250718114018.png",
-    "attachments",
-    "dev/java/spring",
-    "dev/java",
-    "Untitled",
-    "dev/treesitter",
-    "journal/archive"
+    "attachments/Pasted image 20250718114018.png"
   ]
 }

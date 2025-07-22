@@ -4,7 +4,6 @@ tags:
   - nvim
   - nvim-registers
 created_at: 2023-10-17 06:42
-aliases:
 ---
 - register `0` is the last text object you yanked
 - this is retained even if you have deleted something with `d` or `x`

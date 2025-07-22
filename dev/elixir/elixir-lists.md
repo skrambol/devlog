@@ -4,7 +4,6 @@ tags:
   - devlog
   - elixir
 created_at: 2023-09-29 14:46
-aliases:
 ---
 ```elixir
 list = [1, 2, 3, 4]

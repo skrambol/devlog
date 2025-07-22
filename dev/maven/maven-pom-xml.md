@@ -4,7 +4,6 @@ tags:
   - maven
   - pom-xml
 created_at: 2025-07-20 12:52
-aliases:
 ---
 - short for **P**roject **O**bject **M**odel
 - contents

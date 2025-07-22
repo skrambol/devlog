@@ -4,7 +4,6 @@ tags:
   - devlog
   - elixir
 created_at: 2023-09-29 14:01
-aliases:
 ---
 ```elixir
 function_variable = fn param ->

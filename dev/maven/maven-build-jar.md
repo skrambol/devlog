@@ -4,7 +4,6 @@ tags:
   - maven
   - 
 created_at: 2025-07-21 11:12
-aliases:
 ---
 ```sh
 ./mvnw package

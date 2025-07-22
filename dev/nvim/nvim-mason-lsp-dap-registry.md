@@ -4,7 +4,6 @@ tags:
   - nvim
   - mason.nvim
 created_at: 2023-09-29 17:32
-aliases:
 ---
 ## Problem
 - looked for the list of available LSPs/DAPs for mason

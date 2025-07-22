@@ -4,7 +4,6 @@ tags:
   - devlog
   - elixir
 created_at: 2023-09-30 10:13
-aliases:
 ---
 ```elixir
 empty_tuple = {}

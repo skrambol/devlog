@@ -4,7 +4,6 @@ tags:
   - devlog
   - elixir
 created_at: 2023-09-30 10:46
-aliases:
 ---
 ```elixir
 "Hello" <> " World!"

@@ -3,7 +3,6 @@ tags:
   - dev
   - nvim
 created_at: 2023-09-28 17:28
-aliases:
 ---
 ## Problem
 i wanted to increase the size of the preview window in telescope.nvim

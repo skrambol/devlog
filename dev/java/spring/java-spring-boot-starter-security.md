@@ -7,7 +7,6 @@ tags:
   - spring-boot-starter-security
   - spring-boot-application-properties
 created_at: 2025-07-20 13:27
-aliases:
 ---
 ```xml
 <dependency>

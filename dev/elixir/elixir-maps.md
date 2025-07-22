@@ -4,7 +4,6 @@ tags:
   - devlog
   - elixir
 created_at: 2023-09-30 11:37
-aliases:
 ---
 ```elixir
 # If the key is an atom:

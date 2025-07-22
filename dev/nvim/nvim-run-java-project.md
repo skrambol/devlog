@@ -5,7 +5,6 @@ tags:
   - nvim-java
   - spring-boot
 created_at: 2025-07-18 07:14
-aliases:
 ---
 ## Problem
 udemy lesson uses IntelliJ for running Spring Boot application, however nvim does not have it, at least from my knowledge

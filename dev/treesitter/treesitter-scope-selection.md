@@ -5,8 +5,6 @@ tags:
   - treesitter
   - selection
 created_at: 2023-09-27 12:05
-aliases:
-  - "2023-09-27"
 ---
 it is possible to select (visual mode) the treesitter node
 ```lua

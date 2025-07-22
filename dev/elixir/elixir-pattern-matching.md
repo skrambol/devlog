@@ -4,7 +4,6 @@ tags:
   - devlog
   - elixir
 created_at: 2023-09-30 10:16
-aliases:
 ---
 ```elixir
 defmodule Example do

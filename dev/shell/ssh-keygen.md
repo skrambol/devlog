@@ -3,7 +3,6 @@ tags:
   - dev
   - ssh
 created_at: 2025-07-18 07:14
-aliases:
 ---
 ## Problem
 every time there is a new setup, a new SSH key must be created for GitHub

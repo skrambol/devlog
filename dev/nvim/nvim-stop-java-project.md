@@ -5,7 +5,6 @@ tags:
   - nvim-java
   - spring-boot
 created_at: 2025-07-18 07:14
-aliases:
 ---
 ## Problem
 stopping java / Spring Boot application inside nvim

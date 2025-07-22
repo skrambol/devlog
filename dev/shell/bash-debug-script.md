@@ -3,7 +3,6 @@ tags:
   - dev
   - bash
 created_at: 2025-07-18 07:14
-aliases:
 ---
 ## Problem
 bash script when running `./mvnw spring-boot:run` in order to run Spring Boot application on the command line

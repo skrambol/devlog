@@ -4,7 +4,6 @@ tags:
   - java
   - spring-boot
 created_at: 2025-07-21 11:29
-aliases:
 ---
 ```java
 import org.springframework.stereotype.Component;

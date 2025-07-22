@@ -4,7 +4,6 @@ tags:
   - java
   - spring-boot
 created_at: 2025-07-21 10:38
-aliases:
 ---
 - due to the introduction of [java-spring-boot-spring-containers](java-spring-boot-spring-containers.md), how will Spring Boot handle/choose if there are multiple components implementing the dependency or the needed interface by the controller
 - it turns out, it is an error `org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'funRestController' defined in file [/home/skrambol/java-man/mycoolerapp/target/classes/com/skrambolito/springboot/demo/mycoolerapp/rest/FunRestController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.skrambolito.springboot.demo.mycoolerapp.rest.Coach' available: expected single matching bean but found 3: cricketCoach,esportsCoach,lifeCoach`
