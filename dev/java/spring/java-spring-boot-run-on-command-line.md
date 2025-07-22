@@ -3,6 +3,7 @@ tags:
   - dev
   - java
   - spring
+  - maven
   - spring-boot
 created_at: 2025-07-18 07:14
 aliases:

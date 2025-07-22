@@ -3,6 +3,7 @@ tags:
   - dev
 created_at: {{date}} {{time}}
 aliases:
+  - 
 ---
 ## Problem
 _my problem_

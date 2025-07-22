@@ -5,4 +5,4 @@ nnoremap Y y$
 nnoremap j gj
 nnoremap k gk
 
-"inoremap <C-s> <Esc>:w<CR>
+imap <C-s> <esc>:w<CR>
