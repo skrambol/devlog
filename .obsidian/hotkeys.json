@@ -96,5 +96,13 @@
       ],
       "key": "J"
     }
+  ],
+  "workspace:split-vertical": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "\\"
+    }
   ]
 }
