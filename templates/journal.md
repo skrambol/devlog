@@ -4,7 +4,7 @@ tags:
   - devlog
 created_at: {{date}} {{time}}
 aliases:
-	- devlog-day-
+  - devlog-day-
 ---
 ## What's my plan for today?
 - [ ] do this
