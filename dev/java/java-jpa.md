@@ -2,6 +2,7 @@
 tags:
   - dev
   - java
+  - java-jpa
 created_at: 2025-07-23 11:06
 ---
 - **J**akarta **P**ersistence **A**PI
