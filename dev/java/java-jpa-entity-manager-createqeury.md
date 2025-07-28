@@ -2,7 +2,7 @@
 tags:
   - dev
   - java
-  - spring-boo[]()t
+  - spring-boot
   - java-jpa
 created_at: 2025-07-25 11:07
 ---
