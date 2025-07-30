@@ -104,5 +104,13 @@
       ],
       "key": "\\"
     }
+  ],
+  "workspace:split-horizontal": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "'"
+    }
   ]
 }

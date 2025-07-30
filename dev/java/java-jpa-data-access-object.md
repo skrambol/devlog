@@ -10,7 +10,6 @@ created_at: 2025-07-24 11:05
 ```java
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
-import org.springframework.transaction.annotation.Transactional;
 
 import jakarta.persistence.EntityManager;
 
@@ -25,7 +24,6 @@ public class StudentDAOImpl implements StudentDAO {
 	}
 
 	@Override
-	@Transactional
 	public void save(Student theStudent) {
 		entityManager.persist(theStudent);
 	}

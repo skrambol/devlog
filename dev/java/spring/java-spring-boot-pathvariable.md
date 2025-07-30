@@ -14,4 +14,4 @@ public getHello(@PathVariable int id) {
 - annotation placed on function parameters
 - dynamically passes data/value from URL
 
-useful in processing data from URL path/endpoint
+useful in dynamically passing data/value from URL
