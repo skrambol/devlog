@@ -1,12 +1,4 @@
 {
-  "leader-hotkeys-obsidian:register-modal": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "A"
-    }
-  ],
   "insert-template": [
     {
       "modifiers": [
@@ -95,22 +87,6 @@
         "Alt"
       ],
       "key": "J"
-    }
-  ],
-  "workspace:split-vertical": [
-    {
-      "modifiers": [
-        "Shift"
-      ],
-      "key": "\\"
-    }
-  ],
-  "workspace:split-horizontal": [
-    {
-      "modifiers": [
-        "Shift"
-      ],
-      "key": "'"
     }
   ]
 }
