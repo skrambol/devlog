@@ -1,5 +1,6 @@
 [
   "obsidian-relative-line-numbers",
   "obsidian-vimrc-support",
-  "scroll-with-jk"
+  "scroll-with-jk",
+  "leader-hotkeys-obsidian"
 ]

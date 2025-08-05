@@ -27,6 +27,7 @@ public class DemoSecurityConfig {
 - create users with passwords and roles
 	- password should follow [java-spring-boot-security-user-password-format](java-spring-boot-security-user-password-format.md)
 	- roles can be any String
-	- [??] this specific snippet uses `InMemoryUserDetailsManager` however, any `UserDetailsManager` might work?
+	- [?!] this specific snippet uses `InMemoryUserDetailsManager` however, any `UserDetailsManager` might work?
+		- either `InMemoryUserDetailsManager` ([java-spring-boot-inmemoryuserdetailsmanager](java-spring-boot-inmemoryuserdetailsmanager.md)) or `JdbcUserDetailsManager` ([java-spring-boot-jdbcuserdetailsmanager](java-spring-boot-jdbcuserdetailsmanager.md)) worked
 
 useful in creating Java Spring Security users to limit access to endpoints

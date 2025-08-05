@@ -1,0 +1,23 @@
+{
+  "hotkeys": [
+    {
+      "sequence": [
+        {
+          "key": "a",
+          "shift": false,
+          "alt": true,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "|",
+          "shift": true,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        }
+      ],
+      "commandID": "workspace:split-vertical"
+    }
+  ]
+}

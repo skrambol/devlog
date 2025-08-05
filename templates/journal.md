@@ -10,13 +10,7 @@ aliases:
 - [ ] do this
 - [ ] do that
 
-## What did I do today?
-- aside from my usual plans...
-
-### Devlog
-
-## What did I learn today?
-- 
+## Devlog
 
 ## What will I do tomorrow?
 - 
