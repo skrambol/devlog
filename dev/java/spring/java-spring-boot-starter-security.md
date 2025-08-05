@@ -11,7 +11,7 @@ created_at: 2025-07-20 13:27
 ```xml
 <dependency>
 	<groupId>org.springframework.boot</groupId>
-	<artifactId>spring-boot-starter-starter</artifactId>
+	<artifactId>spring-boot-starter-security</artifactId>
 </dependency>
 ```
 - adds username-password login for all endpoints by default
