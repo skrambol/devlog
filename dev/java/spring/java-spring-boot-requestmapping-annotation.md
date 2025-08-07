@@ -15,5 +15,6 @@ public class MyController {
 ```
 - annotation on controller class
 - adds prefix URL to other endpoint mappings of the controller class
+- no need to add element ([java-annotation-elements](../java-annotation-elements.md))
 
 useful in adding a prefix URL for Spring REST endpoints

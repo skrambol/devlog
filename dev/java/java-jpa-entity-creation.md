@@ -27,7 +27,8 @@ public class Student {
 ```
 - create Java class
 - must have at least a public/protected no-argument constructor
-	- [??] but why?
+	- [?!] but why?
+		- since Spring Boot will use this to initialize the class
 - add `@Entity` annotation
 	- maps a Java class to a database table
 	- think of Model in MVC

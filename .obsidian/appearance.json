@@ -1,12 +1,12 @@
 {
   "accentColor": "",
-  "textFontFamily": "BerkeleyMono Nerd Font,Bahnschrift",
+  "textFontFamily": "BerkeleyMono Nerd Font,Bahnschrift,Inter",
   "enabledCssSnippets": [
     "no-blink"
   ],
   "cssTheme": "Obsidian gruvbox",
   "monospaceFontFamily": "BerkeleyMono Nerd Font",
-  "theme": "system",
+  "theme": "obsidian",
   "interfaceFontFamily": "Bahnschrift",
   "baseFontSizeAction": true,
   "baseFontSize": 21,
