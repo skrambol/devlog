@@ -46,4 +46,4 @@ public class StudentDAOImpl implements StudentDAO {
 - add `@Transactional`
  - to automatically start and end database transactions
 
-useful in creating DAO to connect the `@Entity` [java-jpa-entity-creation](java-jpa-entity-creation.md) to the databse
+useful in creating DAO to connect the `@Entity` [java-jpa-entity](java-jpa-entity.md) to the databse

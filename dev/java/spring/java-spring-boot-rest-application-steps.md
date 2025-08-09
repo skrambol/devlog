@@ -5,7 +5,7 @@ tags:
   - spring-boot
 created_at: 2025-07-30 09:33
 ---
-1. create `@Entity` ([java-jpa-entity-creation](dev/java/java-jpa-entity-creation.md))
+1. create `@Entity` ([java-jpa-entity](../java-jpa-entity.md))
 2. create `@Repository` ([java-spring-repository-annotation](java-spring-repository-annotation.md))
 	- DAO ([java-jpa-data-access-object](dev/java/java-jpa-data-access-object.md)) 
 	- `JpaRepository` ([java-spring-jparepository](java-spring-jparepository.md))

@@ -24,6 +24,6 @@ public class Instructor {
 - first solution was to create custom response class but has no id
 - even better solution: searched `spring boot rest remove id from api response` in google
 - learned about `@JsonIgnore` from AI recap :(
-- added as annotation to `@Entity` ([java-jpa-entity-creation](dev/java/java-jpa-entity-creation.md)) fields
+- added as annotation to `@Entity` ([java-jpa-entity](../java-jpa-entity.md)) fields
 
 useful in excluding fields (not only `id`) from response body

@@ -7,9 +7,10 @@
   "attachmentFolderPath": "attachments",
   "useMarkdownLinks": true,
   "livePreview": false,
-  "showIndentGuide": true,
+  "showIndentGuide": false,
   "useTab": true,
   "newLinkFormat": "relative",
   "spellcheck": true,
-  "readableLineLength": true
+  "readableLineLength": true,
+  "showInlineTitle": true
 }

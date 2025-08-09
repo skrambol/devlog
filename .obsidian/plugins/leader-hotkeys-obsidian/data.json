@@ -18,6 +18,63 @@
         }
       ],
       "commandID": "workspace:split-vertical"
+    },
+    {
+      "sequence": [
+        {
+          "key": "a",
+          "shift": false,
+          "alt": true,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "\"",
+          "shift": true,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        }
+      ],
+      "commandID": "workspace:split-horizontal"
+    },
+    {
+      "sequence": [
+        {
+          "key": "w",
+          "shift": false,
+          "alt": false,
+          "ctrl": true,
+          "meta": false
+        },
+        {
+          "key": "q",
+          "shift": false,
+          "alt": false,
+          "ctrl": true,
+          "meta": false
+        }
+      ],
+      "commandID": "workspace:close"
+    },
+    {
+      "sequence": [
+        {
+          "key": "a",
+          "shift": false,
+          "alt": true,
+          "ctrl": false,
+          "meta": false
+        },
+        {
+          "key": "x",
+          "shift": false,
+          "alt": false,
+          "ctrl": false,
+          "meta": false
+        }
+      ],
+      "commandID": "workspace:close"
     }
   ]
 }

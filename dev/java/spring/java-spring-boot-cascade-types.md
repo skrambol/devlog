@@ -11,8 +11,8 @@ created_at: 2025-08-07 10:03
 @JoinColumn(name = "instructor_detail_id")
 private InstructorDetail instructorDetail;
 ```
-- applied as element ([java-annotation-elements](../java-annotation-elements.md)) to related fields/table inside `@Entity` ([java-jpa-entity-creation](dev/java/java-jpa-entity-creation.md))
-- by  default, no cascade operations
+- applied as element ([java-annotation-elements](../java-annotation-elements.md)) to related fields/table inside `@Entity` ([java-jpa-entity](../java-jpa-entity.md))
+- by default, no cascade operations
 
 ![](../../../attachments/Pasted%20image%2020250806101450.png)
 - PERSIST
