@@ -4,7 +4,8 @@ tags:
   - java
   - spring-boot
 created_at: 2025-07-22 11:25
-  - 
+aliases:
+  - "@Lazy"
 ---
 ```
 import org.springframework.context.annotation.Lazy;

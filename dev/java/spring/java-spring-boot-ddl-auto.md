@@ -9,7 +9,7 @@ created_at: 2025-07-25 11:28
 ```properties
 spring.jpa.hibernate.ddl-auto=create
 ```
-- tables are based on `@Entity` declaration ([java-jpa-entity](../java-jpa-entity.md))
+- tables are based on `@Entity` declaration ([java-jpa-entity](../jpa/java-jpa-entity.md))
 - defaults to `create-drop` if using an embedded database
 - defaults to `none`
 - `create-drop` creates then destroys db after

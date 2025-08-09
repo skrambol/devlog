@@ -12,8 +12,8 @@ public interface EmployeeRepository extends JpaRepository<Employee, Integer> {
 
 }
 ```
-- automagically adds common CRUD methods on a given `@Entity` ([java-jpa-entity](../java-jpa-entity.md))
-- to be used instead of DAO ([java-jpa-data-access-object](../java-jpa-data-access-object.md)) since it removes most boilerplate codes
+- automagically adds common CRUD methods on a given `@Entity` ([java-jpa-entity](../jpa/java-jpa-entity.md))
+- to be used instead of DAO ([java-jpa-data-access-object](../jpa/java-jpa-data-access-object.md)) since it removes most boilerplate codes
 	- no need to create DAO interface
 	- no need to create DAO implementation/class
 - to be injected as a dependency on `@Service` ([java-spring-service-annotation](dev/java/spring/java-spring-service-annotation.md))

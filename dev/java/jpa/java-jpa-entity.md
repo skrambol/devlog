@@ -5,6 +5,8 @@ tags:
   - spring-boot
   - java-jpa
 created_at: 2025-07-24 10:48
+aliases:
+  - "@Entity"
 ---
 ```java
 import jakarta.persistence.Entity;

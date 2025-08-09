@@ -2,11 +2,14 @@
 tags:
   - dev
   - java
+  - java-jpa
   - spring-boot
 created_at: 2025-08-07 10:08
-alias:
-  - java-spring-boot-joincolumn-annotation
-  - java-spring-boot-mappedby-element
+aliases:
+  - "@OneToOne"
+  - java-spring-boot-onetoone-annotation
+  - java-jpa-joincolumn-annotation
+  - java-jpa-mappedby-element
 ---
 ```java
 // Instructor.java
@@ -21,7 +24,7 @@ private InstructorDetail instructorDetail;
 @OneToOne(mappedBy = "instructorDetail")
 private Instructor instructor;
 ```
-- annotation on foreign key field inside `@Entity` ([java-jpa-entity](../java-jpa-entity.md))
+- annotation on foreign key field inside `@Entity` ([java-jpa-entity](java-jpa-entity.md))
 - creates a foreign key field to the `@Entity` table
 - simulates/allows a one-to-one mapping similar to a relational database
 - `@JoinColumn(name = "foreign_table_id")`

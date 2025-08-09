@@ -2,6 +2,7 @@
 tags:
   - dev
   - java
+  - java-jpa
   - spring-boot
 created_at: 2025-08-07 09:57
 ---

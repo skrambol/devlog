@@ -4,6 +4,8 @@ tags:
   - java
   - spring-boot
 created_at: 2025-07-30 09:36
+aliases:
+  - "@Service"
 ---
 ```java
 @Service
@@ -27,7 +29,7 @@ public class MyServiceImpl implements MyService {
 - ![](../../../attachments/Pasted%20image%2020250729101237.png) 
 - annotation used on Java classes
 - usually has a `@Repository` dependency
-	- [java-jpa-data-access-object](dev/java/java-jpa-data-access-object.md)
+	- [java-jpa-data-access-object](../jpa/java-jpa-data-access-object.md)
 	- or `JpaRepository` ([java-spring-jparepository](java-spring-jparepository.md))
 - contains `@Transactional` ([java-spring-transactional-annotation](java-spring-transactional-annotation.md)) methods to encapsulate business processes
 - contains business logic or domain logic

@@ -4,6 +4,8 @@ tags:
   - java
   - spring-boot
 created_at: 2025-07-31 11:01
+aliases:
+  - "@RepositoryResource"
 ---
 ```java
 @RepositoryResource(path="new-path")

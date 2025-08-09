@@ -4,9 +4,9 @@
   "enabledCssSnippets": [
     "no-blink"
   ],
-  "cssTheme": "Border",
+  "cssTheme": "Obsidian gruvbox",
   "monospaceFontFamily": "BerkeleyMono Nerd Font",
-  "theme": "moonstone",
+  "theme": "obsidian",
   "interfaceFontFamily": "Bahnschrift",
   "baseFontSizeAction": true,
   "baseFontSize": 21,

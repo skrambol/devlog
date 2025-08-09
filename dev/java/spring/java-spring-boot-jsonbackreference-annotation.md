@@ -4,6 +4,8 @@ tags:
   - java
   - spring-boot
 created_at: 2025-08-09 17:08
+aliases:
+  - "@JsonBackReference"
 ---
 ```java
 //Instructor.java
@@ -14,7 +16,7 @@ created_at: 2025-08-09 17:08
 @JsonBackReference
 private InstructorDetail instructorDetail;
 ```
-- annotates the field in the owning `@Entity` ([java-jpa-entity](dev/java/java-jpa-entity.md))
+- annotates the field in the owning `@Entity` ([java-jpa-entity](../jpa/java-jpa-entity.md))
 - translates to `Instructor` has-a `InstructorDetail`
 
 useful to display a has-a relationship between `@Entity` relationships

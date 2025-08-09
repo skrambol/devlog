@@ -4,6 +4,8 @@ tags:
   - java
   - spring-boot
 created_at: 2025-07-28 11:18
+aliases:
+  - "@RequestMapping"
 ---
 ```java
 import org.springframework.web.bind.annotation.RequestMapping;

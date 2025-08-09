@@ -4,7 +4,8 @@ tags:
   - java
   - spring-boot
 created_at: 2025-07-22 11:18
-  - 
+aliases:
+  - "@Primary"
 ---
 ## Problem
 [java-spring-boot-multiple-components-single-constructor-error](dev/java/spring/java-spring-boot-multiple-components-single-constructor-error.md)

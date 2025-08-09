@@ -2,13 +2,16 @@
 tags:
   - dev
   - java
+  - java-jpa
   - spring-boot
 created_at: 2025-08-09 16:11
-alias: java-spring-boot-dto
+alias:
+  - java-spring-boot-dto
+  - java-jpa-dto
 ---
 - used to solve[java-spring-boot-response-recursive-rendering](java-spring-boot-response-recursive-rendering.md)
 - but more than that, this might be a better practice since we would have finer control on what can be used in a request or response body
-- maps `@Entity` ([java-jpa-entity](dev/java/java-jpa-entity.md)) to request or response body
+- maps `@Entity` ([java-jpa-entity](java-jpa-entity.md)) to request or response body
 - not only limited to Spring Boot, can probably be used in other such as `Serializers` in `DjangoREST`
 - used the following as reference on the implementation:
 	- https://medium.com/@roshanfarakate/understanding-dtos-in-spring-boot-a-comprehensive-guide-20e2b8101ee6

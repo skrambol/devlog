@@ -5,6 +5,8 @@ tags:
   - spring-boot
   - spring-boot-application-properties
 created_at: 2025-07-21 11:17
+aliases:
+  - "@Value"
 ---
 ```properties
 prop.name=this is my name

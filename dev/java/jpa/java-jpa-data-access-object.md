@@ -6,7 +6,7 @@ tags:
   - java-jpa
 created_at: 2025-07-24 11:05
 ---
-![](../../attachments/Pasted%20image%2020250724093859.png)
+![](../../../attachments/Pasted%20image%2020250724093859.png)
 ```java
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;

@@ -4,6 +4,8 @@ tags:
   - java
   - spring-boot
 created_at: 2025-07-30 10:39
+aliases:
+  - "@Repository"
 ---
 - `@Repository`
 - annotation used on classes/interfaces

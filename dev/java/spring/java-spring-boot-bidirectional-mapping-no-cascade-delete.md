@@ -23,7 +23,7 @@ public void deleteInstructorDetail(int id) {
 }
 ```
 - steps: interchangeable, but both must be done
-	- set `CascadeType` ([java-spring-boot-cascade-types](dev/java/spring/java-spring-boot-cascade-types.md)) accordingly (remove `CascadeType.REMOVE`) for the `@JsonManagedReference` field from the non-owning entity
+	- set `CascadeType` ([java-jpa-cascade-types](../jpa/java-jpa-cascade-types.md)) accordingly (remove `CascadeType.REMOVE`) for the `@JsonManagedReference` field from the non-owning entity
 	- delete or set to null the `@JSONBackReference` from owning entity
 	- call repository delete
 - [??] why need both? why is calling repository delete not enough?

@@ -47,7 +47,14 @@
       "key": "F3"
     }
   ],
-  "command-palette:open": [],
+  "command-palette:open": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": " "
+    }
+  ],
   "switcher:open": [
     {
       "modifiers": [
