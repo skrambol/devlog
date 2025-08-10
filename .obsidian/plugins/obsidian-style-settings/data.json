@@ -1,0 +1,20 @@
+{
+  "Appearance-light@@background-primary@@light": "#FFFCF0",
+  "Appearance-light@@background-primary-alt@@light": "#F2F0E5",
+  "Appearance-light@@background-underlying-select-light": "background-underlying-secondary-light",
+  "Appearance-light@@on-border-light": "#6F6E69",
+  "Appearance-light@@background-secondary@@light": "#F2F0E5",
+  "Appearance-light@@background-secondary-alt@@light": "#FFFCF0",
+  "Appearance-light@@background-tertiary@@light": "#CECDC3",
+  "Appearance-light@@workspace-background-translucent@@light": "#FFFCF099",
+  "Appearance-light@@background-modifier-hover@@light": "#100F0F13",
+  "Appearance-light@@background-modifier-border@@light": "#E6E4D9",
+  "Appearance-light@@background-modifier-border-hover@@light": "#DAD8CE",
+  "Appearance-light@@background-modifier-border-focus@@light": "#CECDC3",
+  "cupertino@@active-line-off": true,
+  "cupertino@@accented-frame-opacity": 0,
+  "cupertino@@center-tabs-off": true,
+  "cupertino@@hide-frontmatter-off": false,
+  "cupertino@@mode-highlight-off": false,
+  "cupertino@@full-width-off": false
+}

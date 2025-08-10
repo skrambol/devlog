@@ -5,6 +5,8 @@ tags:
   - spring-boot
   - spring-boot-starter-security
 created_at: 2025-08-05 16:14
+aliases:
+  - "JdbcUserDetailsManager"
 ---
 ```java
 @Bean

@@ -5,6 +5,8 @@ tags:
   - spring-boot
   - spring-boot-starter-security
 created_at: 2025-08-05 16:12
+aliases:
+  - "InMemoryUserDetailsManager"
 ---
 ```java
 @Bean

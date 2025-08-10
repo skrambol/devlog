@@ -3,9 +3,9 @@ tags:
   - dev
   - java
   - spring-boot
+created_at: 2025-08-09 17:08
 aliases:
   - "@JsonManagedReference"
-created_at: 2025-08-09 17:08
 ---
 ```java
 //InstructorDetail.java

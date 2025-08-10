@@ -4,6 +4,8 @@ tags:
   - java
   - spring-boot
 created_at: 2025-07-30 10:53
+aliases:
+  - JpaRepository
 ---
 ```java
 import org.springframework.data.jpa.repository.JpaRepository;

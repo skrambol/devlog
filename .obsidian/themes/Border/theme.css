@@ -8042,6 +8042,32 @@ body:not(.disable-alternative-checkboxes) li[data-task="?"]>p>input:checked:afte
     -webkit-mask-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' viewBox='0 0 16 16'%3e%3cpath fill='black' d='M12.871 3.692c0 3.56-3.956 3.319-3.956 5.78v.014c0 .284-.23.514-.514.514H6.243a.514.514 0 0 1-.515-.514V9.34c0-3.803 3.473-3.56 3.473-5.341 0-.77-.571-1.23-1.517-1.23-.768 0-1.554.335-2.268 1.022a.512.512 0 0 1-.67.031l-1.419-1.11a.513.513 0 0 1-.056-.76C4.457.731 5.997 0 8.036 0c3.23 0 4.835 1.736 4.835 3.692ZM9.355 14c0 1.099-.88 2-2 2-1.1 0-2-.901-2-2s.9-2 2-2c1.12 0 2 .901 2 2Z'/%3e%3c/svg%3e");
 }
 
+body:not(.disable-alternative-checkboxes) input[data-task="Q"]:checked,
+body:not(.disable-alternative-checkboxes) li[data-task="Q"]>input:checked,
+body:not(.disable-alternative-checkboxes) li[data-task="Q"]>p>input:checked {
+    --checkbox-color: var(--color-blue);
+    --checkbox-color-hover: var(--color-blue);
+}
+
+body:not(.disable-alternative-checkboxes) input[data-task="Q"]:checked:after,
+body:not(.disable-alternative-checkboxes) li[data-task="Q"]>input:checked:after,
+body:not(.disable-alternative-checkboxes) li[data-task="Q"]>p>input:checked:after {
+    -webkit-mask-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' viewBox='0 0 16 16'%3e%3cpath fill='black' d='M12.871 3.692c0 3.56-3.956 3.319-3.956 5.78v.014c0 .284-.23.514-.514.514H6.243a.514.514 0 0 1-.515-.514V9.34c0-3.803 3.473-3.56 3.473-5.341 0-.77-.571-1.23-1.517-1.23-.768 0-1.554.335-2.268 1.022a.512.512 0 0 1-.67.031l-1.419-1.11a.513.513 0 0 1-.056-.76C4.457.731 5.997 0 8.036 0c3.23 0 4.835 1.736 4.835 3.692ZM9.355 14c0 1.099-.88 2-2 2-1.1 0-2-.901-2-2s.9-2 2-2c1.12 0 2 .901 2 2Z'/%3e%3c/svg%3e");
+}
+
+body:not(.disable-alternative-checkboxes) input[data-task="A"]:checked,
+body:not(.disable-alternative-checkboxes) li[data-task="A"]>input:checked,
+body:not(.disable-alternative-checkboxes) li[data-task="A"]>p>input:checked {
+    --checkbox-color: var(--color-green);
+    --checkbox-color-hover: var(--color-green);
+}
+
+body:not(.disable-alternative-checkboxes) input[data-task="A"]:checked:after,
+body:not(.disable-alternative-checkboxes) li[data-task="A"]>input:checked:after,
+body:not(.disable-alternative-checkboxes) li[data-task="A"]>p>input:checked:after {
+    -webkit-mask-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' viewBox='0 0 16 16'%3e%3cpath fill='black' d='M12.871 3.692c0 3.56-3.956 3.319-3.956 5.78v.014c0 .284-.23.514-.514.514H6.243a.514.514 0 0 1-.515-.514V9.34c0-3.803 3.473-3.56 3.473-5.341 0-.77-.571-1.23-1.517-1.23-.768 0-1.554.335-2.268 1.022a.512.512 0 0 1-.67.031l-1.419-1.11a.513.513 0 0 1-.056-.76C4.457.731 5.997 0 8.036 0c3.23 0 4.835 1.736 4.835 3.692ZM9.355 14c0 1.099-.88 2-2 2-1.1 0-2-.901-2-2s.9-2 2-2c1.12 0 2 .901 2 2Z'/%3e%3c/svg%3e");
+}
+
 body:not(.disable-alternative-checkboxes) input[data-task="*"]:checked,
 body:not(.disable-alternative-checkboxes) li[data-task="*"]>input:checked,
 body:not(.disable-alternative-checkboxes) li[data-task="*"]>p>input:checked {

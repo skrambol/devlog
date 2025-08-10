@@ -4,6 +4,11 @@ tags:
   - java
   - spring-boot
 created_at: 2025-07-20 12:38
+aliases:
+  - "@GetMapping"
+  - "@PostMapping"
+  - "@PutMapping"
+  - "@DeleteMapping"
 ---
 ```java
 	@GetMapping("/endpoint-ng-bayan")

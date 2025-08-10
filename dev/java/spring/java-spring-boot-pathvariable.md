@@ -4,6 +4,8 @@ tags:
   - java
   - spring-boot
 created_at: 2025-07-28 11:22
+aliases:
+  - "@PathVariable"
 ---
 ```java
 @GetMapping("/hello/{id}")

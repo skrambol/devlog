@@ -4,7 +4,8 @@ tags:
   - java
   - spring-boot
 created_at: 2025-07-22 10:25
-  - 
+aliases:
+  - "@Bean"
 ---
 - a Spring Beans is a Java class that is handled by Spring
 - mostly used for inversion of control and dependency injection

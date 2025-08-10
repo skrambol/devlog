@@ -63,7 +63,14 @@
       "key": "P"
     }
   ],
-  "workspace:close": [],
+  "workspace:close": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Q"
+    }
+  ],
   "editor:focus-left": [
     {
       "modifiers": [

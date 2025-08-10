@@ -4,6 +4,8 @@ tags:
   - java
   - spring-boot
 created_at: 2025-07-20 12:36
+aliases:
+  - "@RestController"
 ---
 ```java
 import org.springframework.web.bind.annotation.RestController;

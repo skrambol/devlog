@@ -1,0 +1,10 @@
+.relative-line-numbers-mono {
+    color: var(--color-accent);
+    font-family: BerkeleyMono Nerd Font;
+    font-weight: bolder;
+
+}
+
+.cm-lineNumbers {
+    font-family: BerkeleyMono Nerd Font
+}

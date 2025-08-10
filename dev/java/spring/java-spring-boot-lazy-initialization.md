@@ -4,7 +4,6 @@ tags:
   - java
   - spring-boot
 created_at: 2025-07-22 11:23
-  - 
 ---
 ![](../../../attachments/Pasted%20image%2020250722101740.png)
 - class is only initialized when visiting the endpoint
