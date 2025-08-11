@@ -27,7 +27,8 @@ created_at: 2025-08-09 10:19
 
 - from this reddit post https://www.reddit.com/r/ObsidianMD/comments/1hgszl7/css_snippet_for_some_pretty_checkboxes_from_border/
 	- cool stuff since it is only CSS for `li[data-task="?"]`
-- maybe it is possible to create my own especially for `- [??]` for question and `- [?!]` for answered question
+- maybe it is possible to create my own especially for `- [\?\?]` for question and `- [\?\!]` for answered question
+	- without `\`; added backslash to not include when grep/searching
 - or maybe just use question and important?
 
 

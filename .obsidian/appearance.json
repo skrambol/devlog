@@ -1,5 +1,5 @@
 {
-  "accentColor": "#3755fb",
+  "accentColor": "",
   "textFontFamily": "BerkeleyMono Nerd Font,Bahnschrift,Inter",
   "enabledCssSnippets": [
     "no-blink",
@@ -9,7 +9,7 @@
     "checkbox-no-strikethrough",
     "cursor-no-blink"
   ],
-  "cssTheme": "Cupertino",
+  "cssTheme": "Border",
   "monospaceFontFamily": "BerkeleyMono Nerd Font",
   "theme": "moonstone",
   "interfaceFontFamily": "Bahnschrift",

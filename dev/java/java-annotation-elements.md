@@ -3,6 +3,8 @@ tags:
   - dev
   - java
 created_at: 2025-07-24 10:53
+aliases:
+  - "annotation element"
 ---
 ## Problem
 ```

@@ -5,6 +5,8 @@ tags:
   - java-jpa
   - spring-boot
 created_at: 2025-08-07 10:03
+aliases:
+  - CascadeType
 ---
 ```java
 @OneToOne(cascade = CascadeType.ALL)

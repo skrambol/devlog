@@ -2,9 +2,10 @@
     color: var(--color-accent);
     font-family: BerkeleyMono Nerd Font;
     font-weight: bolder;
-
+    position:absolute;
+    margin-left: 1em;
 }
 
 .cm-lineNumbers {
-    font-family: BerkeleyMono Nerd Font
+    font-family: BerkeleyMono Nerd Font;
 }
