@@ -14,6 +14,6 @@ public Instructor getInstructorProfile();
 ```
 - annotation on `JpaRepository` ([java-spring-jparepository](dev/java/spring/java-spring-jparepository.md)) method
 - used in creating custom query for `JpaRepository`
-- example use case in [java-jpa-join-fetch-query](java-jpa-join-fetch-query.md)
+- example use case in [java-jpa-join-fetch-query](../jpa/java-jpa-join-fetch-query.md)
 
 useful in creating custom query for `JpaRepository`

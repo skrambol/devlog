@@ -25,7 +25,7 @@ Error starting ApplicationContext. To display the condition evaluation report re
 org.springframework.dao.DataIntegrityViolationException: could not execute statement [ERROR: update or delete on table "instructor" violates foreign key constraint "fk79arv901b5gkyp2240wcm3l76" on table "courses"
   Detail: Key (id)=(1) is still referenced from table "courses".] [delete from instructor where id=?]; SQL [delete from instructor where id=?]; constraint [fk79arv901b5gkyp2240wcm3l76]
 ```
-![](../attachments/Pasted%20image%2020250813101005.png)
+![](../../../attachments/Pasted%20image%2020250813101005.png)
 - not removing associations will raise `DataIntegrityViolationException` which means that the foreign key should have an existing reference if not null
 - udemy lesson actually raised `SQLIntegrityConstraintViolationException` but same concept
 

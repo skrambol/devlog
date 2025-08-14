@@ -47,7 +47,7 @@ Course()
 2025-08-13T10:04:05.518+08:00 DEBUG 3851 --- [schooldb] [  restartedMain] org.hibernate.SQL                        : delete from instructor_detail where id=?
 2025-08-13T10:04:05.518+08:00 TRACE 3851 --- [schooldb] [  restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:INTEGER) <- [1]
 ```
-![](../attachments/Pasted%20image%2020250813100752.png)
+![](../../../attachments/Pasted%20image%2020250813100752.png)
 - deleting an `@Entity` ([java-jpa-entity](dev/java/jpa/java-jpa-entity.md)) with `@OneToMany` field
 - always remember to remove association (set `@ManyToOne` or foreign key field of owning entity to none)
 - unlike `@ManyToOne` delete, you can just proceed with delete

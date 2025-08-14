@@ -15,6 +15,6 @@ public Instructor getInstructorProfile(@Param("id") int idName);
 - annotation on function arguments
 - used to pass parameterized values in custom query (`@Query` ([java-spring-boot-query-annotation](java-spring-boot-query-annotation.md)))
 - take not that the value inside annotation is to be used in custom query, not the variable name
-- example use case in [java-jpa-join-fetch-query](java-jpa-join-fetch-query.md)
+- example use case in [java-jpa-join-fetch-query](../jpa/java-jpa-join-fetch-query.md)
 
 useful in having parametrized value for custom queries in `JpaRepository`
