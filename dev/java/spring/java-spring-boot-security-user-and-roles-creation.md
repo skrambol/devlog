@@ -21,9 +21,9 @@ public class DemoSecurityConfig {
 	}
 
 ```
-- used together with [java-spring-boot-starter-security](dev/java/spring/java-spring-boot-starter-security.md)
-- create `@Configuration` [java-spring-boot-config-bean](dev/java/spring/java-spring-boot-config-bean.md)
-- create `@Bean` [java-spring-boot-bean](dev/java/spring/java-spring-boot-bean.md)
+- used together with [java-spring-boot-starter-security](java-spring-boot-starter-security.md)
+- create `@Configuration` [java-spring-boot-config-bean](java-spring-boot-config-bean.md)
+- create `@Bean` [java-spring-boot-bean](java-spring-boot-bean.md)
 - create users with passwords and roles
 	- password should follow [java-spring-boot-security-user-password-format](java-spring-boot-security-user-password-format.md)
 	- roles can be any String

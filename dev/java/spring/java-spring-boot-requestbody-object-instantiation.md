@@ -13,7 +13,7 @@ public Instructor addInstructor(@RequestBody Instructor instructor) {
 	return schoolService.addInstructor(instructor);
 }
 ```
-- `@RequestBody` ([java-spring-requestbody-annotation](dev/java/spring/java-spring-requestbody-annotation.md)) will only call `Instructor` setters if field is existing in request body payload
+- `@RequestBody` ([java-spring-requestbody-annotation](java-spring-requestbody-annotation.md)) will only call `Instructor` setters if field is existing in request body payload
 ```json
 {
   "firstName": "Skrambolito",
@@ -25,7 +25,7 @@ public Instructor addInstructor(@RequestBody Instructor instructor) {
   }
 }
 ```
-![](attachments/Pasted%20image%2020250807090250.png)
+![](../../../attachments/Pasted%20image%2020250807090250.png)
 - for example, the payload above will not call `.setEmail()`, setting the field to null
 - the logs also indicate that the email is `null`
 ```log

@@ -18,7 +18,7 @@ public interface EmployeeRepository extends JpaRepository<Employee, Integer> {
 - to be used instead of DAO ([java-jpa-data-access-object](../jpa/java-jpa-data-access-object.md)) since it removes most boilerplate codes
 	- no need to create DAO interface
 	- no need to create DAO implementation/class
-- to be injected as a dependency on `@Service` ([java-spring-service-annotation](dev/java/spring/java-spring-service-annotation.md))
+- to be injected as a dependency on `@Service` ([java-spring-service-annotation](java-spring-service-annotation.md))
 - no need to create `findAll`, `findById`, `save`, etc. methods
 
 useful in creating common CRUD methods for an `@Entity`

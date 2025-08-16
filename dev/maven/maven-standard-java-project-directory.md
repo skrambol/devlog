@@ -14,6 +14,6 @@ created_at: 2025-07-20 12:50
 			- webapp/ -> jsp files, css
 		- test/
 	- target -> jar file
-- ![](attachments/Pasted%20image%2020250720104220.png)
+- ![](../../attachments/Pasted%20image%2020250720104220.png)
 
 - useful in understanding a Maven project files

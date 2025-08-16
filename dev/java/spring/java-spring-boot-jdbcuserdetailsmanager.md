@@ -15,7 +15,7 @@ public UserDetailsManager userDetailsManager(DataSource dataSource) {
 	return new JdbcUserDetailsManager(dataSource);
 }
 ```
-- retrieves users for Spring Security ([java-spring-boot-starter-security](dev/java/spring/java-spring-boot-starter-security.md)) from a data source, which is usually a database
+- retrieves users for Spring Security ([java-spring-boot-starter-security](java-spring-boot-starter-security.md)) from a data source, which is usually a database
 - the default `user` schema is
 	- username -> varchar
 	- password -> varchar

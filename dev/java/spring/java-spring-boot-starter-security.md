@@ -17,7 +17,7 @@ created_at: 2025-07-20 13:27
 - adds username-password login for all endpoints by default
 - default username is `user`
 - default password can be seen in logs
-	![](attachments/Pasted%20image%2020250720121147.png)
+	![](../../../attachments/Pasted%20image%2020250720121147.png)
 - application properties
 	- `spring.security.user.name` sets a new username
 	- `spring.security.user.password` sets a new password

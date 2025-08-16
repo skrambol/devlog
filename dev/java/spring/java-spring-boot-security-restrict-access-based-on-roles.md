@@ -26,6 +26,6 @@ public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
 ```
 - `requestMatchers` -> matches the HTTP method and endpoints
 - `hasRole`, `hasAnyRole`, `permitAll` -> allows roles to access
-- take note that `server.servlet.context-path` from application properties ([java-spring-boot-application-properties](dev/java/spring/java-spring-boot-application-properties.md)) is not part of the request URL
+- take note that `server.servlet.context-path` from application properties ([java-spring-boot-application-properties](java-spring-boot-application-properties.md)) is not part of the request URL
 
 useful in limiting access to endpoints depending on Spring Security user roles

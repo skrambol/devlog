@@ -10,6 +10,6 @@ created_at: 2025-07-30 09:33
 	- DAO ([java-jpa-data-access-object](../jpa/java-jpa-data-access-object.md)) 
 	- `JpaRepository` ([java-spring-jparepository](java-spring-jparepository.md))
 3. create `@Service` ([java-spring-service-annotation](java-spring-service-annotation.md))
-4. create `@RestController` ([java-spring-boot-restcontroller](dev/java/spring/java-spring-boot-restcontroller.md))
+4. create `@RestController` ([java-spring-boot-restcontroller](java-spring-boot-restcontroller.md))
 
 useful in remembering the steps in creating a Spring Boot REST server/application

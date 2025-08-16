@@ -12,8 +12,8 @@ created_at: 2025-07-31 10:49
 	<artifactId>spring-boot-starter-data-rest</artifactId>
 </dependency>
 ```
-- automagically adds REST endpoints depending on the entity of the `@Repository` ([java-spring-repository-annotation](dev/java/spring/java-spring-repository-annotation.md))
-	- used `JpaRepository` ([java-spring-jparepository](dev/java/spring/java-spring-jparepository.md)) in spring boot udemy
+- automagically adds REST endpoints depending on the entity of the `@Repository` ([java-spring-repository-annotation](java-spring-repository-annotation.md))
+	- used `JpaRepository` ([java-spring-jparepository](java-spring-jparepository.md)) in spring boot udemy
 - only needs `@Entity` ([java-jpa-entity](../jpa/java-jpa-entity.md)) and `@Repository`
 - no need for `@RestController` ([java-spring-boot-restcontroller](java-spring-boot-restcontroller.md))
 - response is HATEOS (hypermedia as the engine of application state)

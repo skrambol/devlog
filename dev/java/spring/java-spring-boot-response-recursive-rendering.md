@@ -6,7 +6,7 @@ tags:
 created_at: 2025-08-09 09:23
 ---
 ## Problem
-![](attachments/Pasted%20image%2020250809095252.png)
+![](../../../attachments/Pasted%20image%2020250809095252.png)
 ```log
 2025-08-07T11:24:10.985+08:00  WARN 2508 --- [schooldb] [nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Ignoring exception, response committed already: org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Document nesting depth (1001) exceeds the maximum allowed (1000, from `StreamWriteConstraints.getMaxNestingDepth()`)
 2025-08-07T11:24:10.985+08:00  WARN 2508 --- [schooldb] [nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Document nesting depth (1001) exceeds the maximum allowed (1000, from `StreamWriteConstraints.getMaxNestingDepth()`)]
@@ -30,10 +30,10 @@ private Instructor instructor;
 ## Solution
 based on this stackoverflow https://stackoverflow.com/questions/45783753/spring-data-jpa-onetoone-annotation-infinite-recursion-error we can:
 - introduce `@JsonIgnore` ([java-jpa-jsonignore-annotation](../jpa/java-jpa-jsonignore-annotation.md)) to either `Instructor` or `InstructorDetail`
-	- ![](attachments/Pasted%20image%2020250809095337.png)
+	- ![](../../../attachments/Pasted%20image%2020250809095337.png)
 	- added `@JsonIgnore` to `InstructorDetail.instructor`
 - annotate `@JsonManagedRefenrence` ([java-spring-boot-jsonmanagedreference-annotation](java-spring-boot-jsonmanagedreference-annotation.md)) and `@JsonBackReference` ([java-spring-boot-jsonbackreference-annotation](java-spring-boot-jsonbackreference-annotation.md))
-	- ![](attachments/Pasted%20image%2020250809095411.png) 
+	- ![](../../../attachments/Pasted%20image%2020250809095411.png) 
 	- code is definitely cleaner however it might be better to also show instructor detail in instructor
 - make use of a Data Transfer Object (DTO)
 	- [java-jpa-data-transfer-object](../jpa/java-jpa-data-transfer-object.md)

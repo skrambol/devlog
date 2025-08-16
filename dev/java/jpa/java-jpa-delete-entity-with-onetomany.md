@@ -48,10 +48,10 @@ Course()
 2025-08-13T10:04:05.518+08:00 TRACE 3851 --- [schooldb] [  restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:INTEGER) <- [1]
 ```
 ![](../../../attachments/Pasted%20image%2020250813100752.png)
-- deleting an `@Entity` ([java-jpa-entity](dev/java/jpa/java-jpa-entity.md)) with `@OneToMany` field
+- deleting an `@Entity` ([java-jpa-entity](java-jpa-entity.md)) with `@OneToMany` field
 - always remember to remove association (set `@ManyToOne` or foreign key field of owning entity to none)
 - unlike `@ManyToOne` delete, you can just proceed with delete
 - notice the logs show performing delete then updating related entities
-- inverse of [java-jpa-many-to-one-relationship-steps](dev/java/jpa/java-jpa-many-to-one-relationship-steps.md)
+- inverse of [java-jpa-many-to-one-relationship-steps](java-jpa-many-to-one-relationship-steps.md)
 
 useful to remember removing associations before deleting an `@Entity` with `@OneToMany` field/attribute in Spring Boot

@@ -27,7 +27,7 @@ public List<Course> getAllCoursesOfInstructor(int instructorId) {
 }
 
 ```
-- `JpaRepository` ([java-spring-jparepository](dev/java/spring/java-spring-jparepository.md)) allows for a way to "automatically" find an `@Entity` ([java-jpa-entity](dev/java/jpa/java-jpa-entity.md)) depending on its fields
+- `JpaRepository` ([java-spring-jparepository](java-spring-jparepository.md)) allows for a way to "automatically" find an `@Entity` ([java-jpa-entity](../jpa/java-jpa-entity.md)) depending on its fields
 - method `findBy{Column}` where `{Column}` is a `@Column`  field
 	- autocomplete also adds the appropriate return type. `List<@Entity>` if it has many to one relationship to `@Column`
 

@@ -34,7 +34,7 @@ public class StudentDAOImpl implements StudentDAO {
 - **D**ata **A**access **O**bject is a Java class implementing CRUD methods
 - uses a `@Repository` under the hood
 	- can be EntityManager or JpaRepository
-- `@Repository` connects to a data source, specified in `application.properties` [java-spring-boot-jdbc-application-properties](spring/java-spring-boot-jdbc-application-properties.md)
+- `@Repository` connects to a data source, specified in `application.properties` [java-spring-boot-jdbc-application-properties](../spring/java-spring-boot-jdbc-application-properties.md)
 - think of Controller in MVC
 - create DAO interface
 	- fill in CRUD method/s

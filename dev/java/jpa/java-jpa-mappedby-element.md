@@ -24,7 +24,7 @@ private List<Course> courses;
 private Instructor instructor;
 ```
 - annotation element in any relationship annotation
-- connects the field to the foreign key from another table, allowing a bidirectional relationship between `@Entity` ([java-jpa-entity](dev/java/jpa/java-jpa-entity.md))
+- connects the field to the foreign key from another table, allowing a bidirectional relationship between `@Entity` ([java-jpa-entity](java-jpa-entity.md))
 - value is the field of the owning entity with the `@JoinColumn` ([java-jpa-joincolumn-annotation](java-jpa-joincolumn-annotation.md)) annotation
 - [>] the `InstructorDetail` belongs to an `instructor`
 - [>] the `Instructor` belongs to or is assigned to a list of `Course`

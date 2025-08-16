@@ -38,7 +38,7 @@ public class Student {
 	- by default, `@Entity` would map the table having the same class name
 	- optional; but this specifies the table to be mapped
 - fill in fields with `@Column(name="")` annotation
-	- add `name` [java-annotation-elements](java-annotation-elements.md) for verbosity and to refactor easily later on
+	- add `name` [java-annotation-elements](../java-annotation-elements.md) for verbosity and to refactor easily later on
 	- add `@Id` annotation for primary key
 	- add `@GeneratedValue(strategy=GenerationType.IDENTITY)` annotation for primary key
 		- `GenerationType.IDENTITY` - db identity column; used for id? auto increment?
@@ -47,7 +47,7 @@ public class Student {
 		- `GenerationType.UUID` - ensure global uniqueness
 		- custom generation type via `org.hibernate.id.IdentifierGenerator`
 			- override `public Serializable generate(...)`
-- generate getters and setters via IDE code actions [nvim-lsp-code-actions-hotkey](dev/nvim/nvim-lsp-code-actions-hotkey.md)
+- generate getters and setters via IDE code actions [nvim-lsp-code-actions-hotkey](../../nvim/nvim-lsp-code-actions-hotkey.md)
 - (optional) generate toString() via IDE code actions
 
 useful in creating an Entity for JPA

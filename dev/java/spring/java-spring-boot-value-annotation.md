@@ -20,6 +20,6 @@ public class MyClass {
 	private String propName;
 }
 ```
-- annotation used to inject properties from `application.properties` ([java-spring-boot-application-properties](dev/java/spring/java-spring-boot-application-properties.md)) to code
+- annotation used to inject properties from `application.properties` ([java-spring-boot-application-properties](java-spring-boot-application-properties.md)) to code
 
 useful in using `application.properties` in the code

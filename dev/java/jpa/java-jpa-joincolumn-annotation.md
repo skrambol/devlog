@@ -14,7 +14,7 @@ aliases:
 @JoinColumn(name = "instructor_detail_id")
 private InstructorDetail instructorDetail;
 ```
-- creates a foreign key in the `@Entity` ([java-jpa-entity](dev/java/jpa/java-jpa-entity.md))
+- creates a foreign key in the `@Entity` ([java-jpa-entity](java-jpa-entity.md))
 - specifies the foreign key field on the table if used with the annotation element `name`
 - [>] can be read as the `Instructor` has an `instructorDetail`
 ---

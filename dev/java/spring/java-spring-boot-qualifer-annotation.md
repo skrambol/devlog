@@ -8,7 +8,7 @@ aliases:
   - "@Qualifier"
 ---
 ## Problem
-[java-spring-boot-multiple-components-single-constructor-error](dev/java/spring/java-spring-boot-multiple-components-single-constructor-error.md)
+[java-spring-boot-multiple-components-single-constructor-error](java-spring-boot-multiple-components-single-constructor-error.md)
 
 ## Solution
 ```java
@@ -19,7 +19,7 @@ public DemoController(@Qualifier("beanId") MyInterface myComponent) {
 
 }
 ```
-- specifies the `@Component` ([java-spring-boot-component-annotation](dev/java/spring/java-spring-boot-component-annotation.md)) to be used
+- specifies the `@Component` ([java-spring-boot-component-annotation](java-spring-boot-component-annotation.md)) to be used
 - specify via the `"beanId"` which is just the class name but in camel case
 - when both `@Qualifier` and `@Primary` ([java-spring-boot-primary-annotation](java-spring-boot-primary-annotation.md)) is present, `@Qualifer` takes priority
 - much better to use since higher in priority and specificity

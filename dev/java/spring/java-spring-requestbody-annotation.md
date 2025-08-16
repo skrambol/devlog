@@ -18,7 +18,7 @@ public Employee createEmployee(@RequestBody Employee newEmployee) {
 }
 
 ```
-- annotation on function parameters in spring boot endpoints ([java-spring-boot-create-endpoint](dev/java/spring/java-spring-boot-create-endpoint.md))
+- annotation on function parameters in spring boot endpoints ([java-spring-boot-create-endpoint](java-spring-boot-create-endpoint.md))
 - the endpoint will now accept a JSON payload containing the fields of the `Employee`
 - no validation seems to happen
 	- no checking of fields

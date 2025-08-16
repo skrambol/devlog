@@ -28,7 +28,7 @@ public Instructor addInstructor(@RequestBody Instructor instructor) {
   }
 }
 ```
-![](attachments/Pasted%20image%2020250807083644.png)
+![](../../../attachments/Pasted%20image%2020250807083644.png)
 - all the values are `null`
 	- printing the values inside the `@PostMapping`
 	- as well as database logs
@@ -40,7 +40,7 @@ Instructor [id=0, firstName=null, lastName=null, email=null, instructorDetail=nu
 2025-08-07T08:36:11.948+08:00 TRACE 2508 --- [schooldb] [nio-8080-exec-1] org.hibernate.orm.jdbc.bind              : binding parameter (3:INTEGER) <- [null]
 2025-08-07T08:36:11.948+08:00 TRACE 2508 --- [schooldb] [nio-8080-exec-1] org.hibernate.orm.jdbc.bind              : binding parameter (4:VARCHAR) <- [null]
 ```
-![](attachments/Pasted%20image%2020250807083759.png)
+![](../../../attachments/Pasted%20image%2020250807083759.png)
 
 ## Solution
 - due to wrong import based on this answer on stackoverflow https://stackoverflow.com/a/61354197

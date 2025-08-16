@@ -23,7 +23,7 @@ public void assignCourse(Course course) {
 	// remember to "save" the changes in the `@Service` layer
 }
 ```
-1. create a foreign key on the owning `@Entity` ([java-jpa-entity](dev/java/jpa/java-jpa-entity.md))
+1. create a foreign key on the owning `@Entity` ([java-jpa-entity](java-jpa-entity.md))
 	- use `@ManyToOne`([java-jpa-manytoone-annotation](java-jpa-manytoone-annotation.md)) annotation and `@JoinColumn` ([java-jpa-joincolumn-annotation](java-jpa-joincolumn-annotation.md))
 2. (optional, if you want bidirectional relationship) create a field in the non-owning `@Entity`
 	- use `@OneToMany` ([java-jpa-onetomany-annotation](java-jpa-onetomany-annotation.md)) annotation with the `mappedBy` ([java-jpa-mappedby-element](java-jpa-mappedby-element.md)) element

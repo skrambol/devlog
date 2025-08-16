@@ -18,6 +18,6 @@ public InMemoryUserDetailsManager userDetailsManager() {
 	return new InMemoryUserDetailsManager(john, susan);
 }
 ```
-- creates users for Spring Security ([java-spring-boot-starter-security](dev/java/spring/java-spring-boot-starter-security.md)) in memory only
+- creates users for Spring Security ([java-spring-boot-starter-security](java-spring-boot-starter-security.md)) in memory only
 
 useful in creating users in the memory for Spring Security

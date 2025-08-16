@@ -61,7 +61,7 @@ public Instructor addInstructor(@RequestBody Instructor instructor) {
 	return schoolService.addInstructor(instructor);
 }
 ```
-- when `@Entity` ([java-jpa-entity](../jpa/java-jpa-entity.md)) with a `@OneToOne` ([java-jpa-onetoone-annotation](../jpa/java-jpa-onetoone-annotation.md)) mapping is used as `@RequestBody` ([java-spring-requestbody-annotation](dev/java/spring/java-spring-requestbody-annotation.md)) payload should be nested as another object
+- when `@Entity` ([java-jpa-entity](../jpa/java-jpa-entity.md)) with a `@OneToOne` ([java-jpa-onetoone-annotation](../jpa/java-jpa-onetoone-annotation.md)) mapping is used as `@RequestBody` ([java-spring-requestbody-annotation](java-spring-requestbody-annotation.md)) payload should be nested as another object
 ```json
 {
 	"firstName": "first",
@@ -73,6 +73,6 @@ public Instructor addInstructor(@RequestBody Instructor instructor) {
 	}
 }
 ```
-![](attachments/Pasted%20image%2020250807095107.png)
+![](../../../attachments/Pasted%20image%2020250807095107.png)
 
 useful in using an `@Entity` with `@OneToOne` field mapping as a `@RequestBody` payload

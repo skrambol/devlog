@@ -19,7 +19,7 @@ public class Config {
 
 
 ```
-- allows an existing (third party) class to be a Spring Bean ([java-spring-boot-bean](dev/java/spring/java-spring-boot-bean.md))
+- allows an existing (third party) class to be a Spring Bean ([java-spring-boot-bean](java-spring-boot-bean.md))
 - `@Configuration`
 	- base class for Bean configs
 - `@Bean`

@@ -12,7 +12,7 @@ aliases:
 @Query("SELECT i FROM Instructor i JOIN FETCH i.courses JOIN FETCH i.instructorDetail")
 public Instructor getInstructorProfile();
 ```
-- annotation on `JpaRepository` ([java-spring-jparepository](dev/java/spring/java-spring-jparepository.md)) method
+- annotation on `JpaRepository` ([java-spring-jparepository](java-spring-jparepository.md)) method
 - used in creating custom query for `JpaRepository`
 - example use case in [java-jpa-join-fetch-query](../jpa/java-jpa-join-fetch-query.md)
 

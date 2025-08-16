@@ -14,7 +14,7 @@ aliases:
 @JoinColumn(name = "instructor_id")
 private Instructor instructor;
 ```
-- annotation for a field inside the owning `@Entity` ([java-jpa-entity](dev/java/jpa/java-jpa-entity.md))
+- annotation for a field inside the owning `@Entity` ([java-jpa-entity](java-jpa-entity.md))
 - the `@Entity` has a many to one relationship to the foreign key
 - [>] many `Course` can be assigned to one `Instructor`
 

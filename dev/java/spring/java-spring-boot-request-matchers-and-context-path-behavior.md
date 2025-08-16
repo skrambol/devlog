@@ -17,7 +17,7 @@ created_at: 2025-08-04 21:16
 - searched for "spring boot http request matchers and servlet.context-path"
 - https://stackoverflow.com/questions/70481700/spring-security-ignoring-context-path
 - `@EnableWebSecurity(debug=true)` to Security `@Configuration` to enable logging
-- it turns out that `server.servlet.context-path` ([java-spring-boot-application-properties](dev/java/spring/java-spring-boot-application-properties.md)) is not included when filtering
+- it turns out that `server.servlet.context-path` ([java-spring-boot-application-properties](java-spring-boot-application-properties.md)) is not included when filtering
 - when using context path, it logs `Request received from GET '/employees'`, context-path not really part of the request
 	```
 	2025-08-04T11:41:44.801+08:00  INFO 13548 --- [nio-8080-exec-1] Spring Security Debugger                 :

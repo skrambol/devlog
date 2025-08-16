@@ -5,7 +5,7 @@ tags:
   - spring-boot
 created_at: 2025-07-23 10:46
 ---
-- Bean ([java-spring-boot-bean](dev/java/spring/java-spring-boot-bean.md)) lifecycle is how it is instantiated and destroyed
+- Bean ([java-spring-boot-bean](java-spring-boot-bean.md)) lifecycle is how it is instantiated and destroyed
 - ![](../../../attachments/Pasted%20image%2020250723091613.png)
 	- take note of logs
 - `@PostConstruct` -> after instantiation
